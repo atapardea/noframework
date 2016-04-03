@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<test-data>
+
+        <iterations>1</iterations>
+        <sleep-time>3</sleep-time>
+
+
+     <id_usernameLogin>username</id_usernameLogin>
+     <id_passwordLogin>password</id_passwordLogin>
+     <id_loginButton>loginButton</id_loginButton>
+
+     <xpath_validatorpas2>//h2[contains(@class,'welcome_text')]</xpath_validatorpas2>
+     <xpath_validatorpas3>//*[@id='gview_grid_jg_ro_teamnet_hrmisforall_domain_organizationalentity_Systematization']/div[1]/span</xpath_validatorpas3>
+     <xpath_pinbutton>//*[@id='_jg_ro_teamnet_hrmisforall_domain_organizationalentity_Systematization_filter']/div/span</xpath_pinbutton>
+
+     <xpath_authority>//td[contains(@title,'Show filters')]</xpath_authority>
+     <id_campauthority>gs_name</id_campauthority>
+     <xpath_authtable>//table[contains(@id,'grid_fc_ro_teamnet_hrmisforall_domain_user_organizationalentity')]/tbody/tr</xpath_authtable>
+     <xpath_foundauthority>//table[contains(@id,'grid_fc_ro_teamnet_hrmisforall_domain_user_organizationalentity')]/tbody/tr[2]</xpath_foundauthority>
+     <xpath_saveauthority>//button[contains(@class,'save-button')]/span</xpath_saveauthority>
+     <id_authorityfield>currentoename</id_authorityfield>
+
+     <xpath_thirdradio>//input[contains(@value,'PERSON_WITH_RMC_TERMINATED_OR_INCOMPLETE')]</xpath_thirdradio>
+     <id_submitbutton>sumbitBtn</id_submitbutton>
+     <xpath_personstable>//table[contains(@id,'grid_l_ro_teamnet_hrmisforall_domain_person_Person')]/tbody/tr</xpath_personstable>
+
+     <xpath_firstperson>//table[contains(@id,'grid_l_ro_teamnet_hrmisforall_domain_person_Person')]/tbody/tr[2]</xpath_firstperson>
+     <xpath_viewperson>_l_ro_teamnet_hrmisforall_domain_person_Person_view</xpath_viewperson>
+     <id_validatorPas6>gview_grid_l_ro_teamnet_hrmisforall_domain_servicereport_servicereport</id_validatorPas6>
+
+     <xpath_firstemployment>//table[contains(@id,'grid_l_ro_teamnet_hrmisforall_domain_servicereport_servicereport')]/tbody/tr[2]</xpath_firstemployment>
+     <xpath_employmentview>//*[@id='_l_ro_teamnet_hrmisforall_domain_servicereport_servicereport_view']/div</xpath_employmentview>
+     <xpath_validatorpas7>//span[(text()='List all Decisions')]</xpath_validatorpas7>
+
+     <id_bottomtable>gview_grid_l_ro_teamnet_hrmisforall_domain_rmc_decision</id_bottomtable>
+     <id_adddecision>_l_ro_teamnet_hrmisforall_domain_rmc_decision_add</id_adddecision>
+     <id_validator8>_decisionMethod_id</id_validator8>
+
+     <xpath_changeofsalary>//*[@id='_decisionMethod_id']/option[1]</xpath_changeofsalary>
+     <xpath_allseelctbuttons>//span[text()='Select']</xpath_allseelctbuttons>
+     <xpath_validpas9>//*[@id='fc_ro_teamnet_hrmisforall_domain_person_Person']/fieldset/legend[2]</xpath_validpas9>
+
+     <id_salarymodificationdate>_actDate_id</id_salarymodificationdate>
+     <id_salarymodificationnumber>_actNumber_id</id_salarymodificationnumber>
+     <xpath_salaryButton>//*[@id='c_ro_teamnet_hrmisforall_domain_position_salary_type_p']/img</xpath_salaryButton>
+     <xpath_firstsalarytype>//*[@id='grid_c_ro_teamnet_hrmisforall_domain_position_salary_type']/tbody/tr[2]</xpath_firstsalarytype>
+     <xpath_selectButtons>//span[text()='Select']</xpath_selectButtons>
+     <xpath_salaryvalue>//*[@id='_salaryValue_id']</xpath_salaryvalue>
+     <xpath_precentagevalue>//*[@id='_percentageMarket_id']</xpath_precentagevalue>
+     <id_StartDate>_startDate_id</id_StartDate>
+
+     <xpath_savedata>proceed_fc_ro_teamnet_hrmisforall_domain_person_Person</xpath_savedata>
+
+     <xpath_listbutton>//*[@id='list_fc_ro_teamnet_hrmisforall_domain_person_Person']</xpath_listbutton>
+     <xpath_decisionslist>//*[@id='grid_l_ro_teamnet_hrmisforall_domain_rmc_decision']/tbody/tr</xpath_decisionslist>
+
+
+
+
+
+</test-data>
